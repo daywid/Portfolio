@@ -21,11 +21,24 @@
 }
 
 
+#about-me{
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
 
+#about-me h2{
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
 
-
-
-
+#about-me p{
+  font-size: 16px;
+  color: #666;
+}
 
 
 
