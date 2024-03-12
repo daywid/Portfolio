@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+html, body{
+    font-family: 'Lexend', arial;
+    height: 100%;
+    width: 100%;
+    background: #021124;
+    overflow-y: auto;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#header .profile img{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+}
