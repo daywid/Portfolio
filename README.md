@@ -10,9 +10,3 @@ Flask is a lightweight and flexible web framework for Python. It provides tools,
 
 ### Bootstrap
 Bootstrap is a free and open-source front-end framework for building responsive and mobile-first websites. It includes CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. By using Bootstrap, you can create a modern and visually appealing user interface for your web applications.
-
-## Contributing
-If you would like to contribute to this project, feel free to submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
