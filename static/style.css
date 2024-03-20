@@ -101,13 +101,18 @@ section#inicio{
     height: 100vh;
 }
 
+.nameSubtitle{
+
+    right: 40%;
+}
+
 section#inicio h2{
     font-size: 4rem;
 }
 
 section#inicio span#subtitle {
-    margin-right: 8rem;
-    font-size: 1.5rem;
+    margin-right: 10.5rem;
+    font-size: 1rem;
 }
 
 .text-shadow{
@@ -122,3 +127,45 @@ section#inicio div#arraste a{
     text-decoration: none;
     color: #fff;
 }
+
+
+i.menu-mobile{
+
+  color: #fff;
+  position: fixed;
+  /* background-color: #252c90; */
+  background-color: #2c2f3f;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 10;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1024px){
+
+    #header {
+        left: -300px;
+    }
+    i.menu-mobile {
+        display: flex;
+    }
+    section#inicio h2{
+        font-size: 3.5rem;
+    }
+    section#iniciospan#subtitle{
+        margin-right: 0;
+        font-size: 1rem;
+    }
+    main{
+        margin-left: 0px;
+    }
+
+
+
+}
+
