@@ -128,7 +128,6 @@ section#inicio div#arraste a{
     color: #fff;
 }
 
-
 i.menu-mobile{
 
   color: #fff;
@@ -146,8 +145,15 @@ i.menu-mobile{
   align-items: center;
 }
 
-@media (max-width: 1024px){
+.menu-nav-active{
+    overflow: hidden;
+}
 
+.menu-nav-active #header{
+    left: 0;
+}
+
+@media (max-width: 1024px){
     #header {
         left: -300px;
     }
@@ -164,8 +170,6 @@ i.menu-mobile{
     main{
         margin-left: 0px;
     }
-
-
 
 }
 
